@@ -85,7 +85,7 @@ const guildId = specifiedCommandArgs[1] || undefined;
     name: "random",
     description: "Play a random sound.",
   });
-
+/*
   // airhornmeta command
   commands.push({
     name: "airhornmeta",
@@ -105,7 +105,7 @@ const guildId = specifiedCommandArgs[1] || undefined;
       }
     ]
   });
-
+*/
   const response = await fetch("https://discord.com/api/v8/applications/" + config.discord.applicationId + guildUrlPart + "/commands", {
     method: "put",
     headers: {
